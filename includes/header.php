@@ -15,6 +15,5 @@ ob_start(); ?>
   </head>
   <body><header>
     <h1><a href="/">PHP Upload</a></h1>
-    <h2>Single File</h2></header>
-      <main>
+    <nav><ul><li></li><li></li></ul></nav>
 

@@ -3,8 +3,10 @@
  * upload.php
  */
 include('includes/header.php'); 
-
-
+?>
+<h2>Single File</h2></header>
+      <main>
+<?php
 if(isset($_FILES['file'])) {
   $file  = $_FILES['file'];
   //print_r($file);
@@ -16,7 +18,7 @@ if(isset($_FILES['file'])) {
   //file ext
   $file_ext = explode('.', $file_name);
   $file_ext = strtolower(end($file_ext));
-  $allowed = array('txt','jpg');
+  $allowed = array('txt','jpg','png');
   if(in_array($file_ext,$allowed)){
     if($file_error === 0){
           	

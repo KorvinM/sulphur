@@ -5,8 +5,8 @@ h1{
 	box-shadow: 11em -1em 6em 1em #fcaffa;
 	font-weight: 300;}
 h2{
-	padding-left:3.8em; font-family:serif;}
-main{
+	padding-left:3.8em; font-family:serif;margin-bottom:0.4em;}
+.interact{
 	background: #333; color:#fefeff;border:silver outset;border-radius:0.2em;
 	padding: 1em 6.2em
 }
@@ -16,4 +16,5 @@ header,main{
 a{position:relative;background:#fff; padding: 0 0.3em 0;transition: color 0.33s, top 5s;}
 header a {text-decoration: none; color: #050021; }
 header a:hover{color:#ccc;font-size: 1.1;} 
+header ul {list-style:none;}
 main a{border-radius: 2em; padding:0.4em 1em}
