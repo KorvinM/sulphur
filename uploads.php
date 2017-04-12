@@ -53,4 +53,6 @@ if (!empty($_FILES['files']['name']['0'])){
 	}
 
 }
+
+include('includes/footer.php');
 ?>

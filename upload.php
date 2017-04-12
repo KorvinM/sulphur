@@ -44,7 +44,5 @@ if(isset($_FILES['file'])) {
 }
 ?>
       </main>
-<footer></footer>
-  </body>
-</html>
-
+<?php include('includes/footer.php');
+?>

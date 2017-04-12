@@ -1,19 +1,26 @@
 body{
+	box-sizing: border-box;
+	background: #faf8fa;
 	font-family:sans-serif;}
 h1{
-	background: #ffffff none repeat scroll 0 0;margin-right:-.78em;
-	box-shadow: 11em -1em 6em 1em #fcaffa;
-	font-weight: 300;}
+	background: #fffeff none repeat scroll 0 0;margin-right:-.78em;
+	box-shadow: 8em -3em 5em 1.5em #fcaffa;
+	font-weight: 500;}
 h2{
-	padding-left:3.8em; font-family:serif;margin-bottom:0.4em;}
-header,main{
+	text-align:center; font-family:serif;margin-bottom:0.4em;}
+header,main, footer{
 	margin:1em;}
+footer {position: relative;top: 1em;width:93%;padding: 1em 0;background:#fff6ff;
+	display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-between}
+footer a{padding: 0.7em 1em}
+footer a:hover, header a:hover{box-shadow: 0 1px 0 2px #383838}
 /*grid layout*/
 main{display:grid;grid-template-columns:100%;justify-items:center}
 
-a{position:relative;background:#fff; padding: 0 0.3em 0;transition: color 0.33s, top 5s;}
-header a {text-decoration: none; color: #050021; }
-header a:hover{color:#ccc;font-size: 1.1;} 
+a{position:relative;background:#fff; padding: 0 0.3em 0;transition: all 0.16s;}
+header a, footer a{text-decoration: none; color: #050021; }
 header ul {list-style:none;}
 main a{border-radius: 2em; padding:0.4em 1em}
 
@@ -23,6 +30,7 @@ main a{border-radius: 2em; padding:0.4em 1em}
 }
 @media(min-width: 850px){
   main{grid-template-columns:1fr 1fr;grid-column-gap:10px}
+  footer{left:33%;width:62%;}
   .interact{padding: 1em 3.8em}
 }
 @media(min-width: 1079px){
