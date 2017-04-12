@@ -21,12 +21,11 @@ main a{border-radius: 2em; padding:0.4em 1em}
 	background: #333; color:#fefeff;border:silver outset;border-radius:0.2em;
 	padding: 1em
 }
-@media(min-width: 640px){
-  main{grid-template-columns:50% 50%;grid-column-gap:10px}
+@media(min-width: 850px){
+  main{grid-template-columns:1fr 1fr;grid-column-gap:10px}
   .interact{padding: 1em 3.8em}
 }
 @media(min-width: 1079px){
-  main{grid-column-gap:0}
   .interact{padding: 1em 6.2em}
 
 }
