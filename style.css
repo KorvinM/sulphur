@@ -1,24 +1,25 @@
 body{
 	box-sizing: border-box;
-	background: #faf8fa;
+	background: #f2ec44;
 	font-family:sans-serif;}
 h1,h2,h3{font-family:serif; font-weight:500}
 h1{
-	background: #fffeff none repeat scroll 0 0;margin-right:-.75em;
-	box-shadow: 8em -3em 5em 1.5em #fcaffa;
+	background: rgba(231,232,253, 0.6);margin-right:-.75em;
+	box-shadow: 8em -3em 5em 2em #e7e8fd;
 	font-weight: 500;}
 h2{
 	text-align:center;margin-bottom:0.4em;}
 header,main, footer{
 	margin:1em;}
-footer {position: relative;top: 1em;width:96%;padding: 1em 0;background:#fff6ff;
-	display: flex;
+footer {position: relative;top: 1em;width:96%;padding: 1em 0;background:rgba(231,232,253, 0.6);
+	font-size: 0.93em;display: flex;
     	flex-wrap: wrap;
 	flex-direction:column;
     	justify-content: space-between}
 footer span{flex-basis:3em}
 footer a{padding: 0.7em 1em}
-footer a:hover, header a:hover{box-shadow: 0 1px 0 2px #383838}
+footer a, header a{box-shadow: 0 1px 0 2px #383838; border:1px white inset}
+footer a:hover, header a:hover{border:1px black inset ;box-shadow:none;}
 /*grid layout*/
 main{display:grid;grid-template-columns:100%;justify-items:center}
 
