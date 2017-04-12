@@ -16,4 +16,6 @@ ob_start(); ?>
   <body><header>
     <h1><a href="/">PHP Upload</a></h1>
     <nav><ul><li></li><li></li></ul></nav>
+  </header>
+  <main>
 

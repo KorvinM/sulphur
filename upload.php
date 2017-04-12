@@ -4,8 +4,8 @@
  */
 include('includes/header.php'); 
 ?>
-<h2>Single File</h2></header>
-      <main>
+<article>
+<section class="interact">
 <?php
 if(isset($_FILES['file'])) {
   $file  = $_FILES['file'];
@@ -43,6 +43,7 @@ if(isset($_FILES['file'])) {
 */
 }
 ?>
-      </main>
+</section>
+</article>
 <?php include('includes/footer.php');
 ?>

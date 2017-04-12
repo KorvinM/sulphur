@@ -1,8 +1,6 @@
 <?php
 
 include('includes/header.php'); ?>
-      </header>
-      <main style="">
         <article class="mode">
 	<h2>Single File</h2>
 	<section class="interact"><p>You are free to upload a <em>single file</em>.
@@ -18,6 +16,5 @@ include('includes/header.php'); ?>
 	</form>
 	</section>
 	</article>
-      </main>
 <?php
 include('includes/footer.php'); ?>
