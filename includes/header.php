@@ -15,7 +15,7 @@ ob_start(); ?>
   </head>
   <body><header>
     <h1><a href="/">Sulphur</a></h1>
-    <h2 style="margin-left:0.62em;font-variant:small-caps;font-size:1.2em;text-align:left;">Simple Up-Loading: Php/Html5 User Routines</h2>	
+    <h2 style="margin-left:0.62em;font-variant:small-caps;font-size:1.2em;text-align:left;">Simple Up-Loading: Php/Html5 Ultramodern Routines</h2>	
 
     <nav><ul><li></li><li></li></ul></nav>
   </header>
