@@ -4,14 +4,19 @@ body{
 	font-family:sans-serif;}
 h1,h2,h3{font-family:serif; font-weight:500}
 h1{
-	background: rgba(231,232,253, 0.6);margin-right:-.75em;
-	box-shadow: 8em -3em 5em 2em #e7e8fd;
+	margin-right:-.75em;
 	font-weight: 500;}
 h2{
 	text-align:center;margin-bottom:0.4em;}
 header,main, footer{
-	margin:1em;}
-footer {position: relative;top: 1em;width:96%;padding: 1em 0;background:rgba(231,232,253, 0.6);
+	margin:1em 1em 2.6em;}
+header, footer{background: rgba(212, 214, 255, 0.8);
+}
+header{
+	box-shadow: 11em -1em 3.8em 2.8em #e7e8fd;
+}
+footer {position: relative;top: 3em;width:96%;padding: 1em 0;
+	box-shadow: 4em 1em 2.6em 3em #e7e8fd;
 	font-size: 0.93em;display: flex;
     	flex-wrap: wrap;
 	flex-direction:column;
@@ -21,7 +26,7 @@ footer a{padding: 0.7em 1em}
 footer a, header a{box-shadow: 0 1px 0 2px #383838; border:1px white inset}
 footer a:hover, header a:hover{border:1px black inset ;box-shadow:none;}
 /*grid layout*/
-main{display:grid;grid-template-columns:100%;justify-items:center}
+main{margin-top:2em;display:grid;grid-template-columns:100%;justify-items:center}
 
 a{position:relative;background:#fff; padding: 0 0.3em 0;transition: all 0.16s;}
 header a, footer a{text-decoration: none; color: #050021; }
@@ -29,7 +34,7 @@ header ul {list-style:none;}
 main a{border-radius: 2em; padding:0.4em 1em}
 
 .interact{
-	background: #333; color:#fefeff;border:silver outset;border-radius:0.2em;
+	background: rgb(5, 13, 29); color:#fefeff;border:silver outset;border-radius:0.2em;
 	padding: 1em
 }
 @media(min-width: 850px){
