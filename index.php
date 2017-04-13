@@ -8,12 +8,32 @@ include('includes/header.php'); ?>
 		<input type="file" name="file"><input type="submit" value="upload">
 	</form>
 	</section>
-	</article><article>
+	<section class="info">
+	<p>Only certain filetypes are allowed!<br> What they are, only the form processer knows! This page is dumb.
+	<br>Look at the source code to find out!
+	</section></article><article>
 	<h2>Multiple Files</h2>
 	<section class="interact"><p>You are free to upload <em>single</em> or <em>multiple files</em>.
 	<form action="uploads.php" method="post" enctype="multipart/form-data">
 		<input type="file" name="files[]" multiple><input type="submit" value="upload">
 	</form>
+	</section>
+	<section class="info">
+	<p>Only certain filetypes are allowed!<br> This page is dumb.
+	Look at the source  This page is dumb.
+	<br>Look at the source 
+	</section>
+	</article>
+	<article>
+	<h2>Drag'N Drop</h2>
+	<section class="interact">
+<p>Coming Soon
+	</section>
+	</article>
+	<article>
+	<h2>Image Uploading</h2>
+	<section class="interact">
+<p>Coming...not so Soon
 	</section>
 	</article>
 <?php

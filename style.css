@@ -5,12 +5,17 @@ body{
 h1,h2,h3{font-family:serif; font-weight:500}
 h1{margin-right:-.75em;}
 h2{text-align:center;margin-bottom:0.4em;}
+main article h2{
+	background: rgb(200, 116, 77) none repeat scroll 0 0;
+	color: white;text-shadow: -3px 3px 8px #000;
+	border-radius: 5em 5em 0 0;
+	margin: 0 auto; width: 62%;}
 header,main,footer{
 	margin:1em 1em 2.6em;}
 header,footer{
-	background: rgba(212, 214, 255, 0.8);}
+	background: rgba(233, 233, 255, 0.95);}
 header{
-	box-shadow: 11em -1em 3.8em 2.8em #e7e8fd;
+	box-shadow:6.2em -1.5em 2em 2.8em #e7e8fd; 
 }
 header ul {list-style:none;}
 footer {position: relative;top: 3em;width:96%;padding: 1em 0;
@@ -18,12 +23,12 @@ footer {position: relative;top: 3em;width:96%;padding: 1em 0;
 	font-size: 0.93em;display: flex;
     	flex-wrap: wrap;
 	flex-direction:column;
-    	justify-content: space-between}
-footer span{flex-basis:3em}
-
+    	}
+footer span{flex:1;flex-basis:3em}
+.context{text-align:right; padding-right:1em;}
 /*grid layout*/
-main{margin-top:2em;display:grid;grid-template-columns:100%;justify-items:center}
-/*links*/
+main{margin-top:3.8em;display:grid;grid-template-columns:100%;justify-items:center}
+main section {padding:1em;}/*links*/
 a{position:relative;background:#fff; padding: 0 0.3em 0;transition: all 0.16s;}
 header a, footer a{
 	text-decoration: none; color: #050021; 
@@ -32,13 +37,14 @@ footer a{padding: 0.7em 1em}
 footer a:hover, header a:hover{border:1px black inset ;box-shadow:none;}
 main a{border-radius: 2em; padding:0.4em 1em}
 
+
 .interact{
 	background: rgb(5, 13, 29); color:#fefeff;border:silver outset;border-radius:0.2em;
-	padding: 1em
 }
+
 @media(min-width: 850px){
   main{grid-template-columns:1fr 1fr;grid-column-gap:10px}
-  footer{left:20%;width:75%; flex-direction:row}
+  footer{left:20%;width:75%; flex-direction:row;position: fixed;top:auto; bottom: -2.6em;max-height:2em}
   footer span{flex-basis:auto}
   .interact{padding: 1em 3.8em}
 }
