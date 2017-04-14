@@ -10,7 +10,6 @@ include('includes/header.php'); ?>
 	</section>
 	<section class="info">
 	<p>Only certain filetypes are allowed!<br> What they are, only the form processer knows! This page is dumb.
-	<br>Look at the source code to find out!
 	</section></article><article>
 	<h2>Multiple Files</h2>
 	<section class="interact"><p>You are free to upload <em>single</em> or <em>multiple files</em>.
@@ -21,7 +20,6 @@ include('includes/header.php'); ?>
 	<section class="info">
 	<p>Only certain filetypes are allowed!<br> This page is dumb.
 	Look at the source  This page is dumb.
-	<br>Look at the source 
 	</section>
 	</article>
 	<article>
